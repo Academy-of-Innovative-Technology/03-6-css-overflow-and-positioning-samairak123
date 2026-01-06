@@ -15,8 +15,21 @@ html {
 }
 
 /* create overflow classes and all other CSS below here */
+.overflow-auto{
+    overflow:auto;
+}
 
+.overflow-show{
+    overflow:visible;
+}
 
+.overflow-hidden{
+    overflow:hidden;
+}
+
+.overflow-scroll{
+    overflow:scroll;
+}
 
 
 
@@ -29,6 +42,7 @@ html {
     padding-top: 47px;
 }
 .wrapper1{
+    position: static;
     border:solid black 2px;
     width:40%;
     float:left;
@@ -42,24 +56,32 @@ html {
 }
 .one{
     border: red solid 2px;
+    position:static;
+    left:10px;
     /*Code for Step 2*/
 
 
 }
 .two{
     border: yellow solid 2px;
+    position:absolute;
+    left: 100px;
     /*Code for Step 3*/
 
 
 }
 .three{
     border: blue solid 2px;
+    position: fixed;
+    left:200px;
     /*Code for Step 4*/
 
 
 }
 .four{
     border: orange solid 2px;
+    position: relative;
+    left:60px;
     /*Code for Step 5*/
   
 }
